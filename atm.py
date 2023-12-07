@@ -12,7 +12,6 @@ atm_is_on = True
 
 while atm_is_on:
     islem = input('Yapmak istediğiniz işlemi giriniz.')
-    
     if islem == '1':
         tutar = int(input('Çekmek istediğiniz tutarı giriniz.'))
         if bakiye > tutar:
